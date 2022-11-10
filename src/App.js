@@ -1,7 +1,9 @@
+
 import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero"
 import Slider from './components/slider/Slider'
+import Visual from "./components/Visual/Visual";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Header/>
       <Hero/>
       <Slider/>
+      <Visual/>
     </div>
   );
 }
